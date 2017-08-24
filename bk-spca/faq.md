@@ -4,9 +4,11 @@
 
 Good question. When I started working on the book around 2010, my initial choice was gcc/g++. I switched to Intel for two main reasons. First, around 2010, the Intel compilers were optimizing loops better. Second, the advanced computing sites I used, [ARC at Michigan](http://arc.umich.edu/) and [TACC at Texas](https://www.tacc.utexas.edu/), defaulted to Intel compilers. In addition, the Intel compilers make it very easy to link Intel's own Math Kernel Library. The Intel compilers are also free for students.
 
-However, I don't believe Intel optimizes loops (such as in dense matrix multiplication or transpose) better than gcc/g++ any more. The new YMM/ZMM registers have raised the difficulty of optimizations considerably, and neither compiler does a good job on recent machines with YMM/ZMM registers.
+However, I don't believe Intel optimizes loops (such as in dense matrix multiplication or transpose) better than gcc/g++ any more. The new YMM/ZMM registers have raised the difficulty of optimization considerably, and neither compiler does a good job on recent machines with YMM/ZMM registers.
 
 In my own research, I mainly use gcc/g++. At one point, I tried to create a gcc branch in the git repository using only open source tools but could not find the time to complete it. If someone takes the time to move all the Makefiles to gcc, I will be happy to pull their branch.
+
+More generally, I try to keep an open mind about both commercial and free software. There is no doubt that free and open source models have contributed enormously, not least in keeping the playing field somewhat level. Some of the work in the open source world is of astonishing quality. Beyond well-known examples such as Linux, gcc, and Python, the ctypes library in Python is a lesser known example that comes to mind. However, we must also keep in mind that the volume of investment required can be huge and companies like ATT (now defunct), Intel, and IBM have come up with remarkable innovations. 
 
 #### Should I learn to code in assembly?
 

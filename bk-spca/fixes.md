@@ -17,7 +17,7 @@
 
 * page 131: "lu decomposition" --> "LU decomposition."
 
-* page 237: "time to issuing a load/store instruction that triggers a DRAM access and its complection" --> replace "to" with "between."
+* page 237: "time to issuing a load/store instruction that triggers a DRAM access and its completion" --> replace "to" with "between."
 
 * page 272: "The measurements in the first two rows are not valid." ---> omit, sentence should not be here.
 
@@ -35,6 +35,6 @@
 
 * page 538: "Inside a streaming multiprocessor is different from a processor core." --> "Internally, a streaming multiprocessor is different from a processor core."
 
-* page 564: "The nvcc compiler driver offers options for generating .ptx files with only the PTX or .cubin files with only the elf binary or even .o files with the elf binary for multiple compute capabilities as well as PTX." --> "With suitable options, the nvcc compiler driver will generate .ptx files with only PTX or .cubin files with only the elf binary. It can also generate .o files with  elf binaries for multiple compute capabilities in addition to PTX."
+* page 564: "The nvcc compiler driver offers options for generating .ptx files with only the PTX or .cubin files with only the elf binary or even .o files with the elf binary for multiple compute capabilities as well as PTX." --> "With suitable options, the nvcc compiler driver can generate .ptx files that contain only PTX or .cubin files that contain only the elf binary. It can also generate .o files that contain  elf binaries for multiple compute capabilities in addition to PTX."
 
 * page 584: "Python or Matlab" --> Python.
