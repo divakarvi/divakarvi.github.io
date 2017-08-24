@@ -20,3 +20,5 @@ In 2010, I would have answered no most of the time. However, the situation today
 No. Different timings are to be expected. For example, if you run the Leibniz programs from [here](https://github.com/divakarvi/bk-spca/blob/master/proc/compiler/leibniz.cpp), you will get different numbers. The only way to resolve this matter is to look at the instruction stream generated, a point that is emphasized in the [discussion](https://divakarvi.github.io/bk-spca/spca.html#toc-Subsection-3.2.2).
 
 In the [discussion](https://divakarvi.github.io/bk-spca/spca.html#toc-Subsection-3.2.5) of matrix multiplication, it is noted that the same Intel compiler does a much better job on the older SSE2 than the newer AVX2 for multIJKX(). Compilers can be quite unpredictable, and that will not change.
+
+We can attempt to be rational about the connection between the instruction stream and program speed. However, the passage from C/C++ to the instruction stream is always subject to the whims of the compiler.

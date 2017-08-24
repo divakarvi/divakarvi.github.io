@@ -84,6 +84,7 @@
 <a id="user-content-i-am-getting-very-different-timings-is-something-wrong" class="anchor" href="#i-am-getting-very-different-timings-is-something-wrong" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>I am getting very different timings. Is something wrong?</h4>
 <p>No. Different timings are to be expected. For example, if you run the Leibniz programs from <a href="https://github.com/divakarvi/bk-spca/blob/master/proc/compiler/leibniz.cpp">here</a>, you will get different numbers. The only way to resolve this matter is to look at the instruction stream generated, a point that is emphasized in the <a href="https://divakarvi.github.io/bk-spca/spca.html#toc-Subsection-3.2.2">discussion</a>.</p>
 <p>In the <a href="https://divakarvi.github.io/bk-spca/spca.html#toc-Subsection-3.2.5">discussion</a> of matrix multiplication, it is noted that the same Intel compiler does a much better job on the older SSE2 than the newer AVX2 for multIJKX(). Compilers can be quite unpredictable, and that will not change.</p>
+<p>We can attempt to be rational about the connection between the instruction stream and program speed. However, the passage from C/C++ to the instruction stream is always subject to the whims of the compiler.</p>
 
               </article>
             </div>
