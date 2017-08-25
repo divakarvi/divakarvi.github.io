@@ -8,11 +8,11 @@ However, I don't believe Intel optimizes loops (such as in dense matrix multipli
 
 In my own research, I mainly use gcc/g++. At one point, I tried to create a gcc branch in the git repository using only open source tools but could not find the time to complete it. If someone takes the time to move all the Makefiles to gcc, I will be happy to pull their branch.
 
-More generally, I try to keep an open mind about both commercial and free software. There is no doubt that free and open source models have contributed enormously, not least in keeping the playing field somewhat level. Some of the work in the open source world is of astonishing quality. Beyond well-known examples such as Linux, gcc, and Python, the ctypes library in Python is a lesser known example that comes to mind. However, we must also keep in mind that the volume of investment required can be huge and companies like ATT (now defunct), Intel, and IBM have come up with remarkable innovations. 
+Free and open source models have contributed enormously in keeping the playing field somewhat level. There is a lot of great software in the open source world. Beyond well-known examples such as Linux, gcc, and Python, the ctypes library in Python is a lesser known example that comes to mind. The volume of investment required can be huge, however, and commercialization is essential. Companies like ATT (now defunct), Intel, and IBM have come up with many remarkable innovations that are foundational to the world of computing.
 
-#### Should I learn to code in assembly?
+#### Should I code in assembly?
 
-In 2010, I would have answered no most of the time. However, the situation today is more complicated. Even the best C/C++ compilers don't do a decent job with the new YMM/ZMM registers, and if Intel keeps changing its architectures to  better compete with GPUs, it may be difficult for compilers to catch up. So I would say that there is a much stronger case for coding in assembly today.
+In 2010, I would have answered no most of the time. However, the situation today is more complicated. Even the best C/C++ compilers don't do a decent job with the new YMM/ZMM registers, and if Intel keeps changing its architectures to  better compete with GPUs, it may be difficult for compilers to catch up. There is a much stronger case for coding in assembly today.
 
 
 #### I am getting very different timings. Is something wrong?
