@@ -1,40 +1,41 @@
-## Corrections and Improvements
+## Corrections
 
-* pages xii, xix, 82, 584, 585, 586: in github.com/divakarvi/Book-SPCA, replace Book-SPCA by bk-spca, although both web addresses work.
+* pages xii, xix, 82, 584, 585, 586: in github.com/divakarvi/Book-SPCA, replace Book-SPCA by bk-spca, although both web addresses work. [done, fixed in html]
 
 
-* page xix:  "In fact the interpreted languages can be several hundred times [slower]."
+* page xix:  "In fact the interpreted languages can be several hundred times [slower]." [done]
 
-* page xx: "In addition to showing me how to get started with Linux" --> "In addition to helping me overcome the hurdle of building and loading Linux"
+* page 47: "Objected oriented programming can be done in plain C as well as using pointers." --> replace "as well as" by "as well." [done]
 
-* page 47: "Objected oriented programming can be done in plain C as well as using pointers." --> replace "as well as" by "as well."
+* page 65: "This convention is common among Fortran compilers but not universal." --> "but may not be universal." [done]
 
-* page 65: "This convention is common among Fortran compilers but not universal." --> omit "but not universal."
+* page 74: "BLAS and LAPACK functions[, to which we now turn,] typically have long argument lists." [done]
 
-* page 74: "BLAS and LAPACK functions[, to which we now turn,] typically have long argument lists."
+* page 118: "Unlike the Vector and Matrix classes from before" --> "Unlike the Vector class from before." [done]
 
-* page 118: "Unlike the Vector and Matrix classes from before" --> "Unlike the Vector class from before."
+* page 131: "lu decomposition" --> "LU decomposition." [done]
 
-* page 131: "lu decomposition" --> "LU decomposition."
+* page 162: "the number of cycles per term of the Leibniz" --> number of. [done]
 
-* page 237: "time to issuing a load/store instruction that triggers a DRAM access and its completion" --> replace "to" with "between."
+* page 222: "in a typical computer are loads and stores" --> computer program. [done]
 
-* page 272: "The measurements in the first two rows are not valid." ---> omit, sentence should not be here.
+* page 237: "time to issuing a load/store instruction that triggers a DRAM access and its completion" --> replace "to" with "between." [done]
 
-* page 319: "The Pthread library will access administrative information about the threads using these variables." --> "At a minimum, the administrative information will include the process id for each thread. The process id is used by the library to make Linux system calls for initiating, managing, and terminating the thread."
+* page 268: "latency and bandwidth to DRAM memory" --> hard disk. [done]
 
-* page 319: "C/C++ compilers [include] Pthread header files by themselves without any prompting."
+* page 272: "The measurements in the first two rows are not valid." ---> omit, sentence should not be here. [done]
 
-* page 320: "Thread stacks" ---> Say a little more about mutexes, and spinlocks. Why there are in global memory and not on thread stacks.
+* page 285: Capitalize "intel nehalem". [done]
 
-* page 321: "On the first line, a variable mutex is defined and initialized." --> Explain why it is global, the kind of administrative information it may hold. Think of a mutex as a location in memory as a first and useful approximation.
+* page 319: "C/C++ compilers [include] Pthread header files by themselves without any prompting." [done]
 
-* page 331: "are complete before any loads and stores after it occur." -->  "are complete before any loads and stores after it are issued." 
+* page 331: "are complete before any loads and stores after it occur." -->  "are complete before any loads and stores after it are issued." [done]
 
-* page 505: In Figure 5.3, "2x32 Mem Ch" should be lifted a few mm.
+* page 383: "perfect binary wth the number" --> binary tree. [done]
 
-* page 538: "Inside a streaming multiprocessor is different from a processor core." --> "Internally, a streaming multiprocessor is different from a processor core."
+* page 427: "All timing ... the member function update()." --> omit. [done]
 
-* page 564: "The nvcc compiler driver offers options for generating .ptx files with only the PTX or .cubin files with only the elf binary or even .o files with the elf binary for multiple compute capabilities as well as PTX." --> "With suitable options, the nvcc compiler driver can generate .ptx files that contain only PTX or .cubin files that contain only the elf binary. It can also generate .o files that contain  elf binaries for multiple compute capabilities in addition to PTX."
+* page 473: "Servers as well as receivers" --> clients. [done]
 
-* page 584: "Python or Matlab" --> Python.
+* page 538: "Inside a streaming multiprocessor is different from a processor core." --> "Internally, a streaming multiprocessor is different from a processor core." [done]
+
