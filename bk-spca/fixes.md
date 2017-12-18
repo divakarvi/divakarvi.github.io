@@ -5,6 +5,8 @@
 
 * page xix:  "In fact the interpreted languages can be several hundred times [slower]." [done]
 
+* page xx: Palin --> Palen. [done]
+
 * page 47: "Objected oriented programming can be done in plain C as well as using pointers." --> replace "as well as" by "as well." [done]
 
 * page 65: "This convention is common among Fortran compilers but not universal." --> "but may not be universal." [done]
